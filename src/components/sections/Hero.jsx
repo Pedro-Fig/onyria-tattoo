@@ -2,8 +2,8 @@ export default function Hero() {
   return (
     <section className="hero-section" id="top">
       <video className="hero-video" autoPlay muted loop playsInline aria-hidden="true" tabIndex={-1}>
-        <source src="/videos/Vid vertical.MP4" media="(max-width: 767px)" type="video/mp4" />
-        <source src="/videos/Vid horizontal.mov" media="(min-width: 768px)" type="video/quicktime" />
+        <source src="/videos/Vid vertical.mp4" media="(max-width: 767px)" type="video/mp4" />
+        <source src="/videos/Vid horizontal.mp4" media="(min-width: 768px)" type="video/mp4" />
       </video>
       <div className="hero-content" data-reveal>
         <img className="hero-logo" src="/images/Logo Onyria.svg" alt="Onyria Tattoo" />
