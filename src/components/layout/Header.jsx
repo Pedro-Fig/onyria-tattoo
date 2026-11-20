@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react'
 
 const links = [
-  ['About', '#about'],
-  ['Artists', '#artists'],
-  ['Styles', '#gallery'],
+  ['O Estúdio', '#about'],
+  ['Artistas', '#artists'],
+  ['Galeria', '#gallery'],
   ['Reviews', '#reviews'],
-  ['Location', '#location'],
-  ['Contacts', '#contact'],
+  ['Localização', '#location'],
+  ['Contatos', '#contact'],
 ]
 
 export default function Header() {

@@ -8,7 +8,7 @@ export default function Gallery() {
 
   return (
     <section className="gallery-section section-shell" id="gallery">
-      <SectionHeading title="Styles" />
+      <SectionHeading title="Galeria" />
       <div className="style-accordion" data-reveal>
         {galleryStyles.map((style) => {
           const open = openStyle === style

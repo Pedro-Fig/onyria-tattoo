@@ -4,7 +4,7 @@ import SectionHeading from '../ui/SectionHeading'
 export default function Artists() {
   return (
     <section className="artists-section section-shell" id="artists">
-      <SectionHeading title="Artists" />
+      <SectionHeading title="Artistas" />
       <div className="artists-grid">
         {artists.map((artist) => (
           <article className="artist-card" key={artist.name} data-reveal>

@@ -1,9 +1,9 @@
 import SectionHeading from '../ui/SectionHeading'
 
 const previewReviews = [
-  { quote: 'Beautiful work and such a thoughtful experience from start to finish.', author: 'M. R.' },
-  { quote: 'The studio feels welcoming, and the attention to detail is incredible.', author: 'J. C.' },
-  { quote: 'They understood my idea immediately and made it feel completely personal.', author: 'A. S.' },
+  { quote: 'Bom ambiente, boas vibes, excelente tatuadoras! Hei de voltar.', author: 'Andre P.' },
+  { quote: 'Adorei fazer tatuagem com a Andréa,super atenciosa e muito profissional ❤️', author: 'Cibeli S.' },
+  { quote: 'Serviço impecável, espaço limpo e confortável e tatuagens incríveis. Recomendo!', author: 'Diogo S.' },
 ]
 
 export default function Reviews() {
@@ -18,7 +18,7 @@ export default function Reviews() {
           </blockquote>
         ))}
       </div>
-      <a className="button" href="https://maps.app.goo.gl/Se33eq7GgvCdeLau7" target="_blank" rel="noreferrer">Read Google reviews ↗</a>
+      <a className="button" href="https://maps.app.goo.gl/Se33eq7GgvCdeLau7" target="_blank" rel="noreferrer">Ver avaliações ↗</a>
     </section>
   )
 }
